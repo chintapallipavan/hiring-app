@@ -7,8 +7,8 @@ ENV ARTIFACT_PATH="in/javahome/hiring/0.1/hiring-0.1.war"
 # Provide Nexus repository credentials
 ARG NEXUS_USERNAME
 ARG NEXUS_PASSWORD
-ENV NEXUS_USERNAME=$admin
-ENV NEXUS_PASSWORD=$admin
+ENV NEXUS_USERNAME=admin
+ENV NEXUS_PASSWORD=admin
 
 # Print debugging information
 RUN echo "Nexus username: $NEXUS_USERNAME"
